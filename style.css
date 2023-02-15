@@ -75,9 +75,11 @@ label:hover {
 }
 
 .answer--no {
-	background-image: url('https://media.giphy.com/media/4BXKwKrbZxVNm/giphy.gif');
+	background-image: url('https://media.giphy.com/media/ZkFJdwctdeoZq/giphy.gif');
 	background-repeat:no-repeat;
 	background-size: cover;
+    background-position: center;
+    background-position-x: -300px;
 }
 
 input.yes[type=checkbox]:checked ~ .answer--yes {
